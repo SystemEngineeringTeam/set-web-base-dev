@@ -1,0 +1,364 @@
+body,div,p,h1,h2,h3,ul,li,header,main,footer {
+    padding: 0;
+    margin: 0;
+}
+
+ul,li {
+    list-style: none;
+}
+
+.page {
+    position: relative;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    cursor: default;
+    font-weight: 500;
+}
+
+header {
+    position: fixed;
+    display: block;
+    width: 100vw;
+    height: 48px;
+    z-index: 8;
+}
+
+.title {
+    position: relative;
+    display: flex;
+}
+
+#area-myname {
+    position: absolute;
+    display: block;
+    width: 480px;
+    height: 48px;
+    left: 24px;
+    text-align: center;
+    background: rgba(255, 87, 34, 0.8);
+    border-radius: 0px 0px 6px 6px;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+    position: relative;
+    display: inline;
+    font-size: 24px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.area-social {
+    position: absolute;
+    display: block;
+    width: 96px;
+    height: 36px;
+    text-align: center;
+    border-radius: 0px 0px 4px 4px;    
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.4);    
+}
+
+#area-twitter {
+    background: rgba(29, 161, 242,0.8);
+    right: 336px;
+}
+
+#area-github {
+    background: rgba(36, 41, 46, 0.8);
+    right: 232px;
+}
+
+#area-blog {
+    background: rgba(175, 180, 43, 0.8);
+    right: 128px;
+}
+
+#area-product {
+    background: rgba(0, 121, 107, 0.8);
+    right: 24px;
+}
+
+.text-social {
+    position: relative;
+    display: inline-block;
+    line-height: 36px;
+    font-size: 15px;
+    color: #fff;
+}
+
+#area-img {
+    position: relative;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("IMG_3471.JPG");
+    z-index: 4;
+}
+
+#area-message {
+    position: relative;
+    display: block;
+    width: 100vw;
+    top: 48px;    
+    height: calc(100vh - 264px);
+    text-align: center;    
+}
+
+#text-message {
+    position: absolute; 
+    display: inline-block;
+    height: 96px;
+    line-height: 96px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 72px;
+    color: #fff;
+    font-weight: 300;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.6);
+}
+
+#infomation {
+    position: absolute;
+    display: block;
+    width: 100vw;
+    height: 144px;
+    bottom: 96px;
+    z-index: 5;
+}
+
+#area-infomation-title {
+    position: relative;
+    display: block;
+    width: 240px;
+    height: 36px;
+    left: 24px;
+    border-radius: 4px;
+    background: #F44336;
+    text-align: center;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.area-infomation {
+    position: relative;
+    display: block;
+    width: calc(100vw - 48px);
+    height: 36px;
+    left: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 4px;    
+    background: #F0F0F0;
+    text-align: left;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.date-infomation {
+    display: inline-block;
+    position: relative;
+    margin-right: 16px;
+    font-weight: 700;
+    line-height: 36px;
+    font-size: 15px;    
+}
+
+#text-infomation-title {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    line-height: 36px;
+    font-size: 15px;
+}
+
+.text-infomation {
+    position: relative;
+    display: inline-block;
+    width: calc(100% - 48px);
+    left: 24px;
+    color: #000;
+    line-height: 36px;
+    font-size: 15px;
+}
+
+footer {
+   position: fixed;
+    display: block;
+    width: 100vw;
+    height: 72px;
+    top: calc(100vh - 72px);
+    z-index: 8;
+}
+
+#area-link{
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    width: calc(100vw - 32px);
+    left: 16px;
+    right: 16px;
+    height: 72px;
+}
+
+.content-link {
+    position: relative;
+    display: block;
+    width: calc(100% / 4);
+    height: 72px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 8px 8px 0px 0px;
+    background: rgba(255, 87, 34, 0.8);
+    text-align: center;
+    box-shadow: 0px -2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.text-link {
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#content-link-about {
+    background: rgba(250, 250, 250, 0.8);
+}
+
+#text-link-about {
+    color: rgb(255,87,34);
+}
+
+@media screen and (max-height:359px){
+    #text-message {
+        display: none;
+    }
+
+    #infomation {
+        bottom: 0;
+        top: 96px;
+    }
+}
+
+@media screen and (max-width:959px){
+    .header {
+        height: 96px;
+    }
+
+    #area-myname {
+        position: absolute;
+        display: block;
+        width: calc(100vw - 48px);
+        height: 48px;
+        left: 24px;
+        right: 24px;
+    }
+    
+    .area-social {
+        top: 48px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .header {
+        height: 84px;
+    }
+
+    #area-myname {
+        position: absolute;
+        display: block;
+        width: 100vw;
+        height: 48px;
+        left: 0px;
+        right: 0px;
+        border-radius: 0;
+        box-shadow: 0px 0px 0px 0px;        
+    }
+    
+    .area-social {
+        top: 48px;
+        width: 25vw;
+        margin: 0;
+        left: 0;
+        right: 0;
+        border-radius: 0;        
+        box-shadow: 0px 0px 0px 0px;
+    }
+
+    #area-twitter {
+        left: 0;
+    }
+
+    #area-github {
+        left: 25vw;
+    }
+
+    #area-blog {
+        left: 50vw;
+    }
+
+    #area-product {
+        left: 75vw;
+    }
+
+    #area-message {
+        position: relative;
+        display: block;
+        width: 100vw;
+        top: 84px;    
+        height: calc(100vh - 180px);
+        text-align: center;    
+    }
+
+    #text-message {
+        font-size: 48px;
+    }
+
+    .area-infomation {
+        display: none;
+    }
+
+    footer {
+        height: 48px;
+        top: calc(100vh - 48px);
+    }
+
+    #area-link {
+        width: 100vw;
+        height: 48px;
+        left: 0;
+        right: 0;
+        box-shadow: 0px 0px 0px 0px;        
+    }
+
+    .content-link {
+        margin: 0;
+        border-radius: 0;
+        height: 48px;
+        box-shadow: 0px 0px 0px 0px;
+    }
+
+    .text-link {
+        line-height: 36px;
+        font-size: 15px;
+    }
+
+    #infomation {
+        height: 96px;
+        bottom: 0;
+    }
+
+    #area-infomation-title {
+        width: calc(100vw - 48px);
+        border-radius: 0;
+        box-shadow: 0px 0px 0px 0px;
+    }
+}
