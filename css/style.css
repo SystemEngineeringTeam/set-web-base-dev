@@ -52,7 +52,7 @@ header {
     height: 48px;
     left: 24px;
     text-align: center;
-    background: rgba(255, 87, 34, 0.8);
+    background: rgba(255, 87, 34, 0.9);
     border-radius: 0px 0px 6px 6px;
     box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.4);
 }
@@ -77,22 +77,22 @@ h1 {
 }
 
 #area-twitter {
-    background: rgba(29, 161, 242, 0.8);
+    background: rgba(29, 161, 242, 0.9);
     right: 336px;
 }
 
 #area-github {
-    background: rgba(36, 41, 46, 0.8);
+    background: rgba(36, 41, 46, 0.9);
     right: 232px;
 }
 
 #area-blog {
-    background: rgba(175, 180, 43, 0.8);
+    background: rgba(175, 180, 43, 0.9);
     right: 128px;
 }
 
 #area-product {
-    background: rgba(0, 121, 107, 0.8);
+    background: rgba(0, 121, 107, 0.9);
     right: 24px;
 }
 
@@ -229,7 +229,7 @@ footer {
     margin-left: 8px;
     margin-right: 8px;
     border-radius: 8px 8px 0px 0px;
-    background: rgba(255, 87, 34, 0.8);
+    background: rgba(255, 87, 34, 0.9);
     text-align: center;
     box-shadow: 0px -2px 2px 2px rgba(0, 0, 0, 0.4);
 }
