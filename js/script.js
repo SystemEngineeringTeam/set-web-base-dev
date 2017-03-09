@@ -96,11 +96,6 @@ $(function() {
         function(e) {
             $(this).css('background', 'rgba(255,87,34,0.8)');
             $(this).children('p').css('color', 'rgb(255, 255, 255)');
-
-            if (flag == 1) {
-                $('#content-link-about').css('background', 'rgba(250,250,250,0.8)');
-                $('#text-link-about').css('color', 'rgb(255, 87, 34)');
-            }
         }
     );
 });
