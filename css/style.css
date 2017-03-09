@@ -110,6 +110,7 @@ h1 {
     height: 100vh;
     background: no-repeat;
     background-image: url("../img/IMG_3471.JPG");
+    background-size: cover;
     z-index: 4;
 }
 
