@@ -12,6 +12,14 @@ $(function() {
         }
     );
 
+    $('#area-myname').on('click', function () {
+        flag = 1;
+        $('#page001').css('display', 'block');
+        $('#page002').css('display', 'none');
+        $('.content-link').css('background', 'rgba(255,87,34,0.8)');
+        $('.content-link').children('p').css('color', 'rgb(255, 255, 255)');
+    });
+
     $('#area-twitter').hover(
         function(e) {
             $(this).css('background', 'rgba(255,255,255,0.8)');
@@ -96,6 +104,19 @@ $(function() {
         function(e) {
             $(this).css('background', 'rgba(255,87,34,0.8)');
             $(this).children('p').css('color', 'rgb(255, 255, 255)');
+
+            if (flag == 2) {
+                $('#content-link-about').css('background', 'rgba(250,250,250,0.8)');
+                $('#content-link-about').children('p').css('color', 'rgb(255, 87, 34)');
+            }
         }
     );
+
+    $('#content-link-about').on('click', function () {
+        flag = 2;
+        $('#page001').css('display', 'none');
+        $('#page002').css('display', 'block');
+        $(this).css('background', 'rgba(250,250,250,0.8)');
+        $(this).children('p').css('color', 'rgb(255, 87, 34)');
+    });
 });
