@@ -1,6 +1,6 @@
 $(function() {
-    var flag = 1;
-
+    var flag = 1;    
+    
     $('#area-myname').hover(
         function(e) {
             $(this).css('background', 'rgba(255,255,255,0.9)');
@@ -16,8 +16,9 @@ $(function() {
         flag = 1;
         $('#page001').css('display', 'block');
         $('#page002').css('display', 'none');
-        $('.content-link').css('background', 'rgba(255,87,34,0.9)');
-        $('.content-link').children('p').css('color', 'rgb(255, 255, 255)');
+        $('#page003').css('display', 'none');
+        window.scrollTo(0, 0);                
+        contentLinkReset();
     });
 
     $('#area-twitter').hover(
@@ -108,6 +109,9 @@ $(function() {
             if (flag == 2) {
                 $('#content-link-about').css('background', 'rgba(250,250,250,0.9)');
                 $('#content-link-about').children('p').css('color', 'rgb(255, 87, 34)');
+            } else if (flag == 3) {
+                $('#content-link-new').css('background', 'rgba(250,250,250,0.9)');
+                $('#content-link-new').children('p').css('color', 'rgb(255, 87, 34)');
             }
         }
     );
@@ -116,7 +120,26 @@ $(function() {
         flag = 2;
         $('#page001').css('display', 'none');
         $('#page002').css('display', 'block');
+        $('#page003').css('display', 'none');
+        window.scrollTo(0, 0);
+        contentLinkReset();
+        $(this).css('background', 'rgba(250,250,250,0.9)');
+        $(this).children('p').css('color', 'rgb(255, 87, 34)');
+    });
+
+    $('#content-link-new').on('click', function () {
+        flag = 3;
+        $('#page001').css('display', 'none');
+        $('#page002').css('display', 'none');
+        $('#page003').css('display', 'block');
+        window.scrollTo(0, 0);        
+        contentLinkReset();        
         $(this).css('background', 'rgba(250,250,250,0.9)');
         $(this).children('p').css('color', 'rgb(255, 87, 34)');
     });
 });
+
+function contentLinkReset() {
+    $('.content-link').css('background', 'rgba(255,87,34,0.9)');
+    $('.content-link').children('p').css('color', 'rgb(255, 255, 255)');
+}
