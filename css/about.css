@@ -129,6 +129,19 @@
         padding-bottom: 48px;
     }
 
+    .area-content-title {
+        left: 16px;
+        right: 16px;
+        width: calc(100vw - 32px);
+    }
+
+    .area-content-answer {
+        left: 16px;
+        right: 16px;
+        border-width: 4px;
+        width: calc(100vw - 40px);
+    }
+
     .text-content-title {
         font-size: 20px;
     }
