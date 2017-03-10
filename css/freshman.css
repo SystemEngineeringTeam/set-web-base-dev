@@ -101,3 +101,33 @@
     padding: 4px;
     border-radius: 6px;
 }
+
+@media screen and (max-width:767px){
+    #text-page003-title-main {
+        font-size: 36px;
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+
+    #text-page003-title-sub {
+        font-size: 18px;
+    }
+
+    #area-page003-title-sub {
+        width: calc(100vw - 32px);
+        margin: 16px;
+    }
+
+    #area-freshman-message {
+        width: calc(100vw - 96px);
+        margin: 16px;
+    }
+
+    #Congratulations {
+        font-size: 24px;
+    }
+
+    .freshmanMessage {
+        font-size: 20px;
+    }
+}
