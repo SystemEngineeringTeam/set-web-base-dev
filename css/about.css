@@ -72,9 +72,9 @@
 .area-content-title {
     position: relative;
     display: block;
-    width: calc(100vw - 48px);
-    left: 24px;
-    right: 24px;
+    width: calc(100vw - 96px);
+    left: 48px;
+    right: 48px;
     background: #FF5722;
     border-radius: 6px 6px 0px 0px;
 }
@@ -94,9 +94,9 @@
 .area-content-answer {
     position: relative;
     display: block;
-    width: calc(100vw - 64px);
-    left: 24px;
-    right: 24px;
+    width: calc(100vw - 112px);
+    left: 48px;
+    right: 48px;
     background: #fff;
     border: solid;
     border-color: #FF5722;
