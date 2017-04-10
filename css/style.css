@@ -111,7 +111,7 @@ h1 {
     width: 100vw;
     height: 100vh;
     background: no-repeat;
-    background-image: url("../img/IMG_3471.JPG");
+    background-image: url("../img/IMG_8842.JPG");
     background-size: cover;
     z-index: 4;
 }
@@ -146,7 +146,7 @@ h1 {
     display: block;
     width: 100vw;
     height: 144px;
-    bottom: 96px;
+    bottom: 64px;
     z-index: 5;
 }
 
@@ -225,7 +225,7 @@ footer {
 .content-link {
     position: relative;
     display: block;
-    width: calc(100% / 4);
+    width: calc(100% / 3);
     height: 72px;
     margin-left: 8px;
     margin-right: 8px;
@@ -268,6 +268,7 @@ footer {
     }
     .area-social {
         top: 48px;
+        margin-right: 16px;
     }
 }
 
