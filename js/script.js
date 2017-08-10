@@ -69,6 +69,12 @@ $(function() {
         }
     );
 
+    $('#area-blog').on('click', function() {
+        window.open('https://www.set1.ie.aitech.ac.jp/blog');
+        $(this).css('background', 'rgba(175,180,43,0.9)');
+        $('#header-github').css('color', 'rgb(255,255,255)');
+    });
+
     $('#area-portfolio').hover(
         function(e) {
             $(this).css('background', 'rgba(255,255,255,0.9)');
@@ -197,6 +203,12 @@ $(function() {
             $(this).children('p').css('color', '#FFFFFF');
         }
     );
+
+    $('.area-content-portfolio').on('click', function() {
+        window.open('https://set1.ie.aitech.ac.jp/koukaten/2016/');
+        $(this).css('background', 'rgba(230, 74, 25, 0.9)');
+        $('#header-github').css('color', 'rgb(255,255,255)');
+    });
 
     $('#area-portfolio').on('click', function () {
         flag = 6;
