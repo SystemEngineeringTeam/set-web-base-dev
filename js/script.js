@@ -233,6 +233,10 @@ $('#area-content-portfolio-002').on('click', function() {
     $('#header-github').css('color', 'rgb(255,255,255)');
 });
 
+$('text-message').on('click', function () {
+    window.open('https://set1.ie.aitech.ac.jp/koukaten2017');
+});
+
 function contentLinkReset() {
     $('.content-link').css('background', 'rgba(255,87,34,0.9)');
     $('.content-link').children('p').css('color', 'rgb(255, 255, 255)');
