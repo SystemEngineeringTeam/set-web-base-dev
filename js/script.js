@@ -70,7 +70,7 @@ $(function() {
     );
 
     $('#area-blog').on('click', function() {
-        window.open('https://www.set1.ie.aitech.ac.jp/blog');
+        window.open('https://set1.ie.aitech.ac.jp/blog');
         $(this).css('background', 'rgba(175,180,43,0.9)');
         $('#header-github').css('color', 'rgb(255,255,255)');
     });
