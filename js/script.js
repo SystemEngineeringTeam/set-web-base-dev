@@ -250,6 +250,10 @@ $('#area-content-portfolio-002').on('click', function () {
   $('#header-github').css('color', 'rgb(255,255,255)');
 });
 
+$('#area-button-member').on('click', function () {
+  window.open('https://set1.ie.aitech.ac.jp/member');
+});
+
 $('#text-message').on('click', function () {
   window.open('https://set1.ie.aitech.ac.jp/koukaten2017');
 });
