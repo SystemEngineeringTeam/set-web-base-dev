@@ -14,14 +14,18 @@ $(function () {
   );
 
   $('#area-myname').on('click', function () {
-    flag = 1;
-    $('#page001').css('display', 'block');
-    $('#page002').css('display', 'none');
-    $('#page004').css('display', 'none');
-    $('#page005').css('display', 'none');
-    $('#page006').css('display', 'none');
-    window.scrollTo(0, 0);
-    contentLinkReset();
+    if ($(location).attr('pathname') === '/index.html') {
+      flag = 1;
+      $('#page001').css('display', 'block');
+      $('#page002').css('display', 'none');
+      $('#page004').css('display', 'none');
+      $('#page005').css('display', 'none');
+      $('#page006').css('display', 'none');
+      window.scrollTo(0, 0);
+      contentLinkReset();
+    } else {
+      window.open('/', "myWindow");
+    }
   });
 
   $('#area-twitter').hover(
