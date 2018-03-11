@@ -70,7 +70,7 @@ $(function () {
   );
 
   $('#area-blog').on('click', function () {
-    window.open('https://set1.ie.aitech.ac.jp/blog');
+    window.open('/blog');
     $(this).css('background', 'rgba(224,67,54,0.9)');
     $('#header-github').css('color', 'rgb(255,255,255)');
   });
@@ -222,7 +222,7 @@ $(function () {
   );
 
   $('.area-content-portfolio').on('click', function () {
-    window.open('https://set1.ie.aitech.ac.jp/koukaten/2016/');
+    window.open('/koukaten/2016/');
     $(this).css('background', 'rgba(230, 74, 25, 0.9)');
     $('#header-github').css('color', 'rgb(255,255,255)');
   });
@@ -242,20 +242,20 @@ $(function () {
 });
 
 $('#area-infomation-001').on('click', function () {
-  window.open('https://set1.ie.aitech.ac.jp/koukaten2017');
+  window.open('/koukaten2017');
 });
 $('#area-content-portfolio-002').on('click', function () {
-  window.open('https://set1.ie.aitech.ac.jp/koukaten2017');
+  window.open('/koukaten2017');
   $(this).css('background', 'rgba(230, 74, 25, 0.9)');
   $('#header-github').css('color', 'rgb(255,255,255)');
 });
 
 $('#area-button-member').on('click', function () {
-  window.open('https://set1.ie.aitech.ac.jp/member');
+  window.open('/member');
 });
 
 $('#text-message').on('click', function () {
-  window.open('https://set1.ie.aitech.ac.jp/koukaten2017');
+  window.open('/koukaten2017');
 });
 
 function contentLinkReset() {
