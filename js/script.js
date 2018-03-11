@@ -100,7 +100,7 @@ $(function () {
   );
 
   $('#area-bbs').on('click', function () {
-    window.open('https://set1.ie.aitech.ac.jp/bbs');
+    window.open('/bbs');
     $(this).css('background', 'rgba(175,180,43,0.9)');
     $('#header-bbs').css('color', 'rgb(255,255,255)');
   });
