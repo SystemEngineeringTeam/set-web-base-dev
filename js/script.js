@@ -1,6 +1,9 @@
 $(function () {
   var flag = 1;
-
+  if ($(location).attr('pathname') === '/member/index.html') {
+    flag = 2;
+    $('#page002').css('display', 'block');
+  }
 
   $('#area-myname').hover(
     function (e) {
