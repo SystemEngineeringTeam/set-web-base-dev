@@ -252,7 +252,7 @@ $(function () {
   });
 });
 
-$('#area-infomation-001').on('click', function () {
+$('#area-infomation-002').on('click', function () {
   window.open('/koukaten2017');
 });
 $('#area-content-portfolio-002').on('click', function () {
