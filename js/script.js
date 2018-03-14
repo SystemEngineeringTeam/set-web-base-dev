@@ -116,18 +116,18 @@ $(function () {
     $('#header-bbs').css('color', 'rgb(255,255,255)');
   });
 
-  $('#area-infomation-title').hover(
+  $('#area-information-title').hover(
     function (e) {
       $(this).css('background', '#fff');
-      $('#text-infomation-title').css('color', '#F44336');
+      $('#text-information-title').css('color', '#F44336');
     },
     function (e) {
       $(this).css('background', '#F44336');
-      $('#text-infomation-title').css('color', '#fff');
+      $('#text-information-title').css('color', '#fff');
     }
   );
 
-  $('.area-infomation').hover(
+  $('.area-information').hover(
     function (e) {
       $(this).css('background', '#FFF176');
     },
@@ -252,7 +252,7 @@ $(function () {
   });
 });
 
-$('#area-infomation-002').on('click', function () {
+$('#area-information-002').on('click', function () {
   window.open('/koukaten2017');
 });
 $('#area-content-portfolio-002').on('click', function () {
