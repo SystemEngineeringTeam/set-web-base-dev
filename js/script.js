@@ -1,6 +1,9 @@
 $(function () {
   var flag = 1;
-  if ($(location).attr('pathname') === '/member/index.html') {
+
+  var selectFlag = 1;
+  if (($(location).attr('pathname') === '/member/index.html') ||
+    ($(location).attr('pathname') === '/member/')) {
     flag = 2;
     $('#page002').css('display', 'block');
   }
@@ -17,7 +20,8 @@ $(function () {
   );
 
   $('#area-myname').on('click', function () {
-    if ($(location).attr('pathname') === '/index.html') {
+    if (($(location).attr('pathname') === '/index.html') ||
+      ($(location).attr('pathname') === '/')) {
       flag = 1;
       $('#page001').css('display', 'block');
       $('#page002').css('display', 'none');
