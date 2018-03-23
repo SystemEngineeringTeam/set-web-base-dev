@@ -10,356 +10,364 @@ header,
 main,
 footer,
 section {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 ul,
 li {
-    list-style: none;
+  list-style: none;
 }
 
 #page001 {
-    position: relative;
-    display: block;
-    width: 100vw;
-    height: 100vh;
+  position: relative;
+  display: block;
+  width: 100vw;
+  height: 100vh;
 }
 
 body {
-    font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
-    cursor: default;
-    font-weight: 500;
-    overflow-x: hidden;
+  font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  cursor: default;
+  font-weight: 500;
+  overflow-x: hidden;
 }
 
 header {
-    position: fixed;
-    display: block;
-    width: 100vw;
-    height: 48px;
-    z-index: 8;
+  position: fixed;
+  display: block;
+  width: 100vw;
+  height: 48px;
+  z-index: 8;
 }
 
 .title {
-    position: relative;
-    display: flex;
+  position: relative;
+  display: flex;
 }
 
 #area-myname {
-    position: absolute;
-    display: block;
-    width: 480px;
-    height: 48px;
-    left: 24px;
-    text-align: center;
-    background: rgba(230, 74, 25, 0.9);
-    border-radius: 0px 0px 6px 6px;
-    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  display: block;
+  width: 480px;
+  height: 48px;
+  left: 24px;
+  text-align: center;
+  background: rgba(230, 74, 25, 0.9);
+  border-radius: 0px 0px 6px 6px;
+  box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.4);
 }
 
 h1 {
-    position: relative;
-    display: inline;
-    font-size: 24px;
-    line-height: 48px;
-    font-weight: 700;
-    color: #fff;
+  position: relative;
+  display: inline;
+  font-size: 24px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #fff;
 }
 
 .area-social {
-    position: absolute;
-    display: block;
-    width: 96px;
-    height: 36px;
-    text-align: center;
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  display: block;
+  width: 96px;
+  height: 36px;
+  text-align: center;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.4);
 }
 
 #area-twitter {
-    background: rgba(29, 161, 242, 0.9);
-    right: 336px;
+  background: rgba(29, 161, 242, 0.9);
+  right: 440px;
 }
 
 #area-github {
-    background: rgba(36, 41, 46, 0.9);
-    right: 232px;
+  background: rgba(36, 41, 46, 0.9);
+  right: 336px;
 }
 
 #area-blog {
-    background: rgba(175, 180, 43, 0.9);
-    right: 128px;
+  background: rgba(244, 67, 54, 0.9);
+  right: 232px;
 }
 
 #area-portfolio {
-    background: rgba(0, 121, 107, 0.9);
-    right: 24px;
+  background: rgba(0, 121, 107, 0.9);
+  right: 128px;
+}
+
+#area-bbs {
+  background: rgba(175, 180, 43, 0.9);
+  right: 24px;
 }
 
 .text-social {
-    position: relative;
-    display: inline-block;
-    line-height: 36px;
-    font-size: 15px;
-    color: #fff;
+  position: relative;
+  display: inline-block;
+  line-height: 36px;
+  font-size: 15px;
+  color: #fff;
 }
 
 #area-img {
-    position: relative;
-    display: block;
-    width: 100vw;
-    height: 100vh;
-    background: no-repeat;
-    background-image: url("../img/IMG_4435.jpg");
-    background-size: cover;
-    z-index: 4;
+  position: relative;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background: no-repeat;
+  background-image: url("../img/IMG_8842.jpg");
+  background-size: cover;
+  z-index: 4;
 }
 
 #area-img::before {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 100vw;
-    height: 100vh;
-    background: #000;
-    opacity: 0.2;
+  content: '';
+  position: absolute;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+  opacity: 0.2;
 }
 
 #area-message {
-    position: relative;
-    display: block;
-    width: 100vw;
-    top: 48px;
-    height: calc(100vh - 264px);
-    text-align: center;
+  position: relative;
+  display: block;
+  width: 100vw;
+  top: 48px;
+  height: calc(100vh - 264px);
+  text-align: center;
 }
 
 #text-message {
-    position: absolute;
-    display: inline-block;
-    height: 96px;
-    line-height: 96px;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    font-size: 72px;
-    color: #fff;
-    font-weight: 300;
-    z-index: 6;
-    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.6);
+  position: absolute;
+  display: inline-block;
+  height: 96px;
+  line-height: 96px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  font-size: 72px;
+  color: #fff;
+  font-weight: 300;
+  z-index: 6;
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.6);
 }
 
-#infomation {
-    position: absolute;
-    display: block;
-    width: 100vw;
-    height: 144px;
-    bottom: 64px;
-    z-index: 5;
+#information {
+  position: absolute;
+  display: block;
+  width: 100vw;
+  height: 144px;
+  bottom: 64px;
+  z-index: 5;
 }
 
-#area-infomation-title {
-    position: relative;
-    display: block;
-    width: 240px;
-    height: 36px;
-    left: 24px;
-    border-radius: 4px;
-    background: #F44336;
-    text-align: center;
-    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.4);
+#area-information-title {
+  position: relative;
+  display: block;
+  width: 240px;
+  height: 36px;
+  left: 24px;
+  border-radius: 4px;
+  background: #F44336;
+  text-align: center;
+  box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.4);
 }
 
-.area-infomation {
-    position: relative;
-    display: block;
-    width: calc(100vw - 48px);
-    height: 36px;
-    left: 24px;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border-radius: 4px;
-    background: #F0F0F0;
-    text-align: left;
-    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.4);
+.area-information {
+  position: relative;
+  display: block;
+  width: calc(100vw - 48px);
+  height: 36px;
+  left: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-radius: 4px;
+  background: #F0F0F0;
+  text-align: left;
+  box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.4);
 }
 
-.date-infomation {
-    display: inline-block;
-    position: relative;
-    margin-right: 16px;
-    font-weight: 700;
-    line-height: 36px;
-    font-size: 15px;
+.date-information {
+  display: inline-block;
+  position: relative;
+  margin-right: 16px;
+  font-weight: 700;
+  line-height: 36px;
+  font-size: 15px;
 }
 
-#text-infomation-title {
-    position: relative;
-    display: inline-block;
-    color: #fff;
-    line-height: 36px;
-    font-size: 15px;
+#text-information-title {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  line-height: 36px;
+  font-size: 15px;
 }
 
-.text-infomation {
-    position: relative;
-    display: inline-block;
-    width: calc(100% - 48px);
-    left: 24px;
-    color: #000;
-    line-height: 36px;
-    font-size: 15px;
+.text-information {
+  position: relative;
+  display: inline-block;
+  width: calc(100% - 48px);
+  left: 24px;
+  color: #000;
+  line-height: 36px;
+  font-size: 15px;
 }
 
 footer {
-    position: fixed;
-    display: block;
-    width: 100vw;
-    height: 72px;
-    top: calc(100vh - 72px);
-    z-index: 8;
+  position: fixed;
+  display: block;
+  width: 100vw;
+  height: 72px;
+  top: calc(100vh - 72px);
+  z-index: 8;
 }
 
 #area-link {
-    position: absolute;
-    display: flex;
-    bottom: 0;
-    width: calc(100vw - 32px);
-    left: 16px;
-    right: 16px;
-    height: 72px;
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  width: calc(100vw - 32px);
+  left: 16px;
+  right: 16px;
+  height: 72px;
 }
 
 .content-link {
-    position: relative;
-    display: block;
-    width: calc(100% / 3);
-    height: 72px;
-    margin-left: 8px;
-    margin-right: 8px;
-    border-radius: 8px 8px 0px 0px;
-    background: rgba(230, 74, 25, 0.9);
-    text-align: center;
-    box-shadow: 0px -2px 2px 2px rgba(0, 0, 0, 0.4);
+  position: relative;
+  display: block;
+  width: calc(100% / 3);
+  height: 72px;
+  margin-left: 8px;
+  margin-right: 8px;
+  border-radius: 8px 8px 0px 0px;
+  background: rgba(230, 74, 25, 0.9);
+  text-align: center;
+  box-shadow: 0px -2px 2px 2px rgba(0, 0, 0, 0.4);
 }
 
 .text-link {
-    position: relative;
-    display: inline-block;
-    font-size: 24px;
-    line-height: 48px;
-    font-weight: 700;
-    color: #fff;
+  position: relative;
+  display: inline-block;
+  font-size: 24px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #fff;
 }
 
 @media screen and (max-height:359px) {
-    #text-message {
-        display: none;
-    }
-    #infomation {
-        bottom: 0;
-        top: 96px;
-    }
+  #text-message {
+    display: none;
+  }
+  #information {
+    bottom: 0;
+    top: 96px;
+  }
 }
 
-@media screen and (max-width:959px) {
-    .header {
-        height: 96px;
-    }
-    #area-myname {
-        position: absolute;
-        display: block;
-        width: calc(100vw - 48px);
-        height: 48px;
-        left: 24px;
-        right: 24px;
-    }
-    .area-social {
-        top: 48px;
-        margin-right: 16px;
-    }
+@media screen and (max-width:1063px) {
+  .header {
+    height: 96px;
+  }
+  #area-myname {
+    position: absolute;
+    display: block;
+    width: calc(100vw - 48px);
+    height: 48px;
+    left: 24px;
+    right: 24px;
+  }
+  .area-social {
+    top: 48px;
+    margin-right: 16px;
+  }
 }
 
 @media screen and (max-width:767px) {
-    .header {
-        height: 84px;
-    }
-    #area-myname {
-        position: absolute;
-        display: block;
-        width: 100vw;
-        height: 48px;
-        left: 0px;
-        right: 0px;
-        border-radius: 0;
-        box-shadow: 0px 0px 0px 0px;
-    }
-    .area-social {
-        top: 48px;
-        width: 25vw;
-        margin: 0;
-        left: 0;
-        right: 0;
-        border-radius: 0;
-        box-shadow: 0px 0px 0px 0px;
-    }
-    #area-twitter {
-        left: 0;
-    }
-    #area-github {
-        left: 25vw;
-    }
-    #area-blog {
-        left: 50vw;
-    }
-    #area-portfolio {
-        left: 75vw;
-    }
-    #area-message {
-        position: relative;
-        display: block;
-        width: 100vw;
-        top: 84px;
-        height: calc(100vh - 180px);
-        text-align: center;
-    }
-    #text-message {
-        font-size: 48px;
-    }
-    .area-infomation {
-        display: none;
-    }
-    footer {
-        height: 48px;
-        top: calc(100vh - 48px);
-    }
-    #area-link {
-        width: 100vw;
-        height: 48px;
-        left: 0;
-        right: 0;
-        box-shadow: 0px 0px 0px 0px;
-    }
-    .content-link {
-        margin: 0;
-        border-radius: 0;
-        height: 48px;
-        box-shadow: 0px 0px 0px 0px;
-    }
-    .text-link {
-        line-height: 36px;
-        font-size: 15px;
-    }
-    #infomation {
-        height: 96px;
-        bottom: 0;
-    }
-    #area-infomation-title {
-        width: calc(100vw - 48px);
-        border-radius: 0;
-        box-shadow: 0px 0px 0px 0px;
-    }
+  .header {
+    height: 84px;
+  }
+  #area-myname {
+    position: absolute;
+    display: block;
+    width: 100vw;
+    height: 48px;
+    left: 0px;
+    right: 0px;
+    border-radius: 0;
+    box-shadow: 0px 0px 0px 0px;
+  }
+  .area-social {
+    top: 48px;
+    width: 20vw;
+    margin: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0;
+    box-shadow: 0px 0px 0px 0px;
+  }
+  #area-twitter {
+    left: 0;
+  }
+  #area-github {
+    left: 20vw;
+  }
+  #area-blog {
+    left: 40vw;
+  }
+  #area-portfolio {
+    left: 60vw;
+  }
+  #area-bbs {
+    left: 80vw;
+  }
+  #area-message {
+    position: relative;
+    display: block;
+    width: 100vw;
+    top: 84px;
+    height: calc(100vh - 180px);
+    text-align: center;
+  }
+  #text-message {
+    font-size: 48px;
+  }
+  .area-information {
+    display: none;
+  }
+  footer {
+    height: 48px;
+    top: calc(100vh - 48px);
+  }
+  #area-link {
+    width: 100vw;
+    height: 48px;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 0px 0px 0px;
+  }
+  .content-link {
+    margin: 0;
+    border-radius: 0;
+    height: 48px;
+    box-shadow: 0px 0px 0px 0px;
+  }
+  .text-link {
+    line-height: 36px;
+    font-size: 15px;
+  }
+  #information {
+    height: 96px;
+    bottom: 0;
+  }
+  #area-information-title {
+    width: calc(100vw - 48px);
+    border-radius: 0;
+    box-shadow: 0px 0px 0px 0px;
+  }
 }
