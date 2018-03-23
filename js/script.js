@@ -233,7 +233,7 @@ $(function () {
   );
 
   $('.area-content-portfolio').on('click', function () {
-    window.open('/koukaten/2016/');
+    window.open('/koukaten2016/');
     $(this).css('background', 'rgba(230, 74, 25, 0.9)');
     $('#header-github').css('color', 'rgb(255,255,255)');
   });
