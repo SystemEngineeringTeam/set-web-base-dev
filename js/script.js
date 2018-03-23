@@ -265,10 +265,6 @@ $('#area-button-member').on('click', function () {
   window.open('/member');
 });
 
-$('#text-message').on('click', function () {
-  window.open('/koukaten2017');
-});
-
 function contentLinkReset() {
   $('.content-link').css('background', 'rgba(255,87,34,0.9)');
   $('.content-link').children('p').css('color', 'rgb(255, 255, 255)');
