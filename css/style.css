@@ -228,6 +228,20 @@ footer {
   z-index: 8;
 }
 
+.flex-container {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-container>.flex-item-initial {
+  flex: initial;
+}
+
+.flex-container>.flex-item-auto {
+  flex: auto;
+}
+
 #area-link {
   position: absolute;
   display: flex;
