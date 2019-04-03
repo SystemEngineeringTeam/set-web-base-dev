@@ -263,7 +263,7 @@ $(function() {
     // });
 
     $('#area-content-portfolio-002').on('click', function() {
-        window.open('/koukaten2017');
+        //window.open('/koukaten2017');
         $(this).css('background', 'rgba(230, 74, 25, 0.9)');
         $('#header-github').css('color', 'rgb(255,255,255)');
     });
