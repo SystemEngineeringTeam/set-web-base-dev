@@ -258,9 +258,9 @@ $(function() {
         $('#header-github').css('color', 'rgb(255,255,255)');
     });
 
-    $('#area-information-002').on('click', function() {
-        window.open('/koukaten2017');
-    });
+    // $('#area-information-002').on('click', function() {
+    //     window.open('/koukaten2017');
+    // });
 
     $('#area-content-portfolio-002').on('click', function() {
         window.open('/koukaten2017');
