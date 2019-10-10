@@ -268,6 +268,13 @@ $(function() {
         $('#header-github').css('color', 'rgb(255,255,255)');
     });
 
+    $('#area-content-portfolio-003').on('click', function() {
+        window.open('/koukaten2019');
+        $(this).css('background', 'rgba(230, 74, 25, 0.9)');
+        $('#header-github').css('color', 'rgb(255,255,255)');
+    });
+
+
     $('#area-button-member').on('click', function() {
         window.open('/member');
     });
